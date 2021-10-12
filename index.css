@@ -1,0 +1,161 @@
+body{
+    margin:0;
+}
+header{
+    background-color:#444;
+    color: white;
+    padding:10px;
+   
+}
+header i{
+    color:white;
+}
+header *{
+    display:inline;
+    
+    
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#search{
+    margin-left:0;
+}
+
+#voice{
+    border-radius:50%;
+    border:1px solid #333; 
+}
+
+/*main content styling */
+
+main{
+    
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    display:flex;
+
+}
+
+/*vide player part */
+#videocontent{
+    flex:2;
+}
+
+#videocontent article{
+    width:90%;
+}
+
+.video{
+    display:flex;
+    flex-direction: column;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    margin-left:5px;
+}
+.channel{
+    border-top:2px solid grey;
+    border-bottom: 2px solid grey;
+    margin:20px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-pic{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+.subscribe{
+    background-color: red;
+    color:white;
+    border-radius:5px;
+    padding:20x;
+    border:1px solid white;
+    height:30px;
+}
+
+.comment{
+    display:flex;
+    justify-content: start;
+    margin-bottom:10px;
+    width:100%;
+}
+
+.comment .profile{
+    flex:1
+}
+.comment div{
+    flex:9;
+}
+.comment div img{
+    
+    width:30px;
+    height:30px;
+    margin:5px;
+    
+
+}
+
+
+#thumbnail{
+    flex:1;
+}
+
+#thumbnail article{
+    display:flex;
+    width:100%;
+    margin-bottom: 20px;
+
+}
+article img{
+    width:40%;
+}
+
+h3,h5{
+    margin:0px;
+}
+p{
+    margin:0px;
+}
+.comment div{
+    margin-left:10px;
+}
+
+footer{
+    text-align:center;
+    background-color:#333;
+    color:white;
+    padding:10px;
+
+}
+
+.logo-design{
+    
+    
+    background-color:green;
+    width:30px;
+    height:30px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    border-radius:50%;
+    
+}
+
+a{
+    
+    color:black;
+}
