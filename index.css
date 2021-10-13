@@ -12,6 +12,7 @@ header i{
 }
 header *{
     display:inline;
+    height:30px;
     
     
 }
@@ -19,6 +20,7 @@ header *{
 header{
     display:flex;
     justify-content:space-between;
+    padding:10px 20px;
     align-items:center;
 }
 #search{
@@ -93,16 +95,21 @@ i{
 }
 
 .comment .profile{
-    flex:1
+    flex:1;
+    padding-right:0px;
+    text-align: center;
 }
 .comment div{
     flex:9;
 }
 .comment div img{
     
-    width:30px;
-    height:30px;
+    width:40px;
+    height:40px;
+    
     margin:5px;
+    margin-left:auto;
+    margin-right:5px;
     
 
 }
@@ -129,7 +136,7 @@ p{
     margin:0px;
 }
 .comment div{
-    margin-left:10px;
+   margin-left:10px;
 }
 
 footer{
@@ -141,8 +148,6 @@ footer{
 }
 
 .logo-design{
-    
-    
     background-color:green;
     width:30px;
     height:30px;
@@ -152,10 +157,11 @@ footer{
     align-items: center;
     padding:5px;
     border-radius:50%;
+    margin:auto;
+    
     
 }
 
 a{
-    
     color:black;
 }
