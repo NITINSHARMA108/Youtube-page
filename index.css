@@ -86,6 +86,9 @@ i{
     border:1px solid white;
     height:30px;
 }
+iframe{
+    height:500px;
+}
 
 .comment{
     display:flex;
@@ -167,12 +170,25 @@ a{
 }
 
 @media screen and (max-width:800px){
-    #thumbnail{
+   /* #thumbnail{
         display:none;
         flex:0;
     }
     #videocontent{
         flex:1;
+        width:100%;
+    }*/
+    main{
+        flex-direction:column;
+    }
+    .comments{
+        display:none;
+    }
+    iframe{
+        height:300px;
+
+    }
+    #videocontent article{
         width:100%;
     }
     #voice{
